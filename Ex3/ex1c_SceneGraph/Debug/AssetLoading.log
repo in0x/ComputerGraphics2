@@ -1,0 +1,31 @@
+﻿Build started 19.12.2015 18:31:23.
+     1>Project "C:\Users\Philipp\Documents\CG2\Ex3\ex1c_SceneGraph\AssetLoading.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AssetLoading.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\assimp\include /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glm\include /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\sfml\include /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glew\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(17): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(48): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(58): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(71): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(97): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(122): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(123): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(261): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(266): warning C4305: '-=': truncation from 'double' to 'float'
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(285): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(330): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(332): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(381): warning C4244: 'argument': conversion from 'unsigned int' to 'const float', possible loss of data
+     1>c:\users\philipp\documents\cg2\ex3\ex1c_scenegraph\main.cpp(383): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\SceneGraph_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\assimp\lib /LIBPATH:C:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\sfml\lib /LIBPATH:C:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glew\lib glew32.lib assimp.lib "sfml-system-d.lib" "sfml-main-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\SceneGraph_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\SceneGraph_debug.lib" /MACHINE:X86 Debug\arcball.obj
+         Debug\glsl.obj
+         Debug\main.obj
+         AssetLoading.vcxproj -> C:\Users\Philipp\Documents\CG2\Ex3\ex1c_SceneGraph\..\..\bin\SceneGraph_debug.exe
+     1>Done Building Project "C:\Users\Philipp\Documents\CG2\Ex3\ex1c_SceneGraph\AssetLoading.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89

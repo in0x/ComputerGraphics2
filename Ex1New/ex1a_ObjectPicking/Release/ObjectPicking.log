@@ -1,0 +1,20 @@
+﻿Build started 10.11.2015 02:14:54.
+     1>Project "C:\Users\Philipp\Documents\VertiefungCG2015\Ex1New\ex1a_ObjectPicking\ObjectPicking.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glm\include /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\sfml\include /IC:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glew\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\common\arcball.cpp ..\..\common\glsl.cpp main.cpp
+         arcball.cpp
+         glsl.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\ObjectPicking.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\sfml\lib /LIBPATH:C:\Users\Philipp\Documents\VertiefungCG2015\externalLibs\glew\lib glew32.lib "sfml-graphics.lib" "sfml-system.lib" "sfml-main.lib" "sfml-window.lib" opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\ObjectPicking.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\ObjectPicking.lib" /MACHINE:X86 /SAFESEH Release\arcball.obj
+         Release\glsl.obj
+         Release\main.obj
+         Generating code
+         All 940 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         ObjectPicking.vcxproj -> C:\Users\Philipp\Documents\VertiefungCG2015\Ex1New\ex1a_ObjectPicking\..\..\bin\ObjectPicking.exe
+     1>Done Building Project "C:\Users\Philipp\Documents\VertiefungCG2015\Ex1New\ex1a_ObjectPicking\ObjectPicking.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51
